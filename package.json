@@ -1,4 +1,9 @@
 {
+  "name": "slippi-sandbox",
+  "version": "0.1.0",
+  "description": "Slippi Sandbox",
+  "author": "Joe Powers",
+  "license": "MIT",
   "private": true,
   "engines": {
     "node": ">=18"
@@ -9,8 +14,25 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.7",
+    "@mui/material": "^5.14.7",
+    "@slippi/slippi-js": "^6.7.0",
+    "aws-sdk": "^2.1450.0",
+    "date-fns": "^2.30.0",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "net": "^1.0.2",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.2",
+    "@types/node": "20.5.9",
+    "@types/react": "18.2.21",
+    "typescript": "5.2.2"
   }
 }
