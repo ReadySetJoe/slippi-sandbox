@@ -21,12 +21,15 @@
     "@mui/material": "^5.14.7",
     "@slippi/slippi-js": "^6.7.0",
     "aws-sdk": "^2.1450.0",
+    "chart.js": "^4.4.0",
     "date-fns": "^2.30.0",
+    "file-saver": "^2.0.5",
     "formidable": "^3.5.1",
     "fs": "^0.0.1-security",
     "net": "^1.0.2",
     "next": "latest",
     "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
